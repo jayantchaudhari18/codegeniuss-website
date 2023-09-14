@@ -38,3 +38,14 @@
     display:flex;
     justify-content: center;
 }
+
+/* course page */
+.course-card{
+    height: 350px;
+    width: 300px;
+    background-color: rgb(205, 205, 209);
+    border-radius: 18px;
+    margin: 25px;
+    padding: 5px;
+
+}
