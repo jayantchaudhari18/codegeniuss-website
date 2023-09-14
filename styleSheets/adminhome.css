@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.container{
+    display: grid;
+    column-gap: 50px;
+}
+.card{
+    margin: 10px;
+    margin-left: 5px;
+    max-width: 400px;
+    width: 100%;
+    border: none
+}
+.card-title{
+    color: #FC6A03;
+}
+.card-body{
+    background-color: rgb(231, 231, 231);
+    border: 1px solid black;
+    border-radius: 5px;
+}

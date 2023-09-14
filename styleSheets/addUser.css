@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    /* width: 100vw; */
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    max-width: 450px;
+    width: 100%;
+    background: #fff;
+    margin: 10px;
+    padding: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    /* align-items: center; */
+}
+.container .title{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #FC6A03;
+}
+
+.adminLogin .input-field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 40px;
+}
+.input-field input{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 0 40px;
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+}
+.input-field label{
+    font-size: 18px;
+    margin: 10px;
+    padding: 5px;
+}
+.button input{
+    color: white;
+    background-color: #24a0ed;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.button input:hover{
+    cursor: pointer;
+    background-color: #D3D3D3;
+    color: black;
+}
